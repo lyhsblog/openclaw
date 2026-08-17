@@ -1597,6 +1597,12 @@
                 ]
               },
               {
+                "group": "Mobile companion apps",
+                "pages": [
+                  "app/mobile-voice-wake"
+                ]
+              },
+              {
                 "group": "macOS companion app",
                 "pages": [
                   {

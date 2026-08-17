@@ -9,8 +9,8 @@ title: "Voice wake"
 Wake words are **one global list owned by the Gateway** — there are no per-node custom lists. Any node or app UI can edit the list; the Gateway persists the change and broadcasts it to every connected client.
 
 - **macOS**: local Voice Wake enable/disable toggle. Requires macOS 26+; see [Voice wake (macOS)](/platforms/mac/voicewake) for runtime/PTT details.
-- **iOS**: local Voice Wake enable/disable toggle in Settings.
-- **Android**: local Voice Wake enable/disable toggle and wake-word editor in Settings → Voice. Requires Android on-device speech recognition.
+- **iOS**: local Voice Wake enable/disable toggle in Settings → Voice & Talk. See [Voice wake (iOS and Android)](/app/mobile-voice-wake).
+- **Android**: local Voice Wake enable/disable toggle and wake-word editor in Settings → Voice. Requires Android on-device speech recognition. See [Voice wake (iOS and Android)](/app/mobile-voice-wake).
 
 ## Storage
 
@@ -70,3 +70,5 @@ Both broadcast to every WebSocket client with read scope (macOS app, WebChat, an
 - [Talk mode](/nodes/talk)
 - [Audio and voice notes](/nodes/audio)
 - [Media understanding](/nodes/media-understanding)
+- [Voice wake (iOS and Android)](/app/mobile-voice-wake)
+- [Voice wake (macOS)](/platforms/mac/voicewake)
