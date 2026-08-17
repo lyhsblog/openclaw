@@ -127,7 +127,6 @@ Use these hubs to discover every page, including deep dives and reference docs t
 - [Audio](/nodes/audio)
 - [Location command](/nodes/location-command)
 - [Voice wake](/nodes/voicewake)
-- [Voice wake (iOS and Android)](/app/mobile-voice-wake)
 - [Talk mode](/nodes/talk)
 
 ## Platforms
@@ -136,7 +135,6 @@ Use these hubs to discover every page, including deep dives and reference docs t
 - [macOS](/platforms/macos)
 - [iOS](/platforms/ios)
 - [Android](/platforms/android)
-- [Voice wake (iOS and Android)](/app/mobile-voice-wake)
 - [Windows Hub](/platforms/windows)
 - [Linux](/platforms/linux)
 - [Web surfaces](/web)

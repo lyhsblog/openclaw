@@ -50,7 +50,6 @@ For a complete map of the docs, see [Docs hubs](/start/hubs).
 
 - [Android app](/platforms/android)
 - [iOS app](/platforms/ios)
-- [Voice wake (iOS and Android)](/app/mobile-voice-wake)
 - [Linux app](/platforms/linux)
 - [macOS app](/platforms/macos)
 - [Windows Hub](/platforms/windows)

@@ -68,6 +68,5 @@ Voice Wake requires Apple Speech to support on-device recognition for the select
 ## Related
 
 - [Voice wake](/nodes/voicewake)
-- [Voice wake (iOS and Android)](/app/mobile-voice-wake)
 - [Voice overlay](/platforms/mac/voice-overlay)
 - [macOS app](/platforms/macos)

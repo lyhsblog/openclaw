@@ -347,11 +347,8 @@ Camera commands (foreground only; permission-gated): `camera.snap` (jpg), `camer
 - Talk Mode promotes the existing foreground service from `connectedDevice` to `connectedDevice|microphone` before capture starts, then demotes it when Talk Mode stops. The node service declares `FOREGROUND_SERVICE_CONNECTED_DEVICE` with `CHANGE_NETWORK_STATE`; Android 14+ also requires the `FOREGROUND_SERVICE_MICROPHONE` declaration, the `RECORD_AUDIO` runtime grant, and the microphone service type at runtime.
 - By default, Android Talk uses native speech recognition, Gateway chat, and `talk.speak` through the configured gateway Talk provider. Local system TTS is used only when `talk.speak` is unavailable.
 - Android Talk uses realtime Gateway relay only when `talk.realtime.mode` is `realtime` and `talk.realtime.transport` is `gateway-relay`.
-- Voice Wake is off by default. Enable **Listen for wake words** under
-  **Settings → Voice** to use on-device foreground listening. While it is
-  enabled and available, the node advertises the `voiceWake` capability. See
-  [Voice wake (iOS and Android)](/app/mobile-voice-wake). Chat dictation, a
-  voice note, and Talk remain the other voice-input paths.
+- Android does not advertise the `voiceWake` capability. Use Chat dictation,
+  a voice note, or Talk for voice input.
 - Additional Android command families (availability depends on device, permissions, and user settings):
   - `device.status`, `device.info`, `device.permissions`, `device.health`
   - `device.apps` only when **Settings > Phone Capabilities > Installed Apps** is enabled; it lists launcher-visible apps by default (pass `includeNonLaunchable` for the full list).
@@ -428,4 +425,3 @@ WhatsApp, WhatsApp Business, Telegram, Telegram X, Discord, and Signal notificat
 - [iOS app](/platforms/ios)
 - [Nodes](/nodes)
 - [Android node troubleshooting](/nodes/troubleshooting)
-- [Voice wake (iOS and Android)](/app/mobile-voice-wake)

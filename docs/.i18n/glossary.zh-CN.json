@@ -1750,13 +1750,5 @@
   {
     "source": "Portals",
     "target": "门户"
-  },
-  {
-    "source": "Voice wake (iOS and Android)",
-    "target": "语音唤醒（iOS 和 Android）"
-  },
-  {
-    "source": "Mobile companion apps",
-    "target": "移动配套应用"
   }
 ]

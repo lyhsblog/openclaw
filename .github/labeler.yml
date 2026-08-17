@@ -232,7 +232,6 @@
       - any-glob-to-any-file:
           - "apps/android/**"
           - "docs/platforms/android.md"
-          - "docs/app/mobile-voice-wake.md"
 "app: wearos":
   - changed-files:
       - any-glob-to-any-file:
@@ -243,7 +242,6 @@
       - any-glob-to-any-file:
           - "apps/ios/**"
           - "docs/platforms/ios.md"
-          - "docs/app/mobile-voice-wake.md"
 "app: macos":
   - changed-files:
       - any-glob-to-any-file:

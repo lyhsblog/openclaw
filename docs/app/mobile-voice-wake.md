@@ -46,13 +46,13 @@ While Voice Wake is enabled and available, the node advertises the `voiceWake` c
 
 Both apps listen with the platform speech recognizer, match a trigger, then forward only the command text.
 
-| Surface | iOS | Android |
-| --- | --- | --- |
-| Recognizer | `SFSpeechRecognizer` plus an `AVAudioEngine` tap | On-device `SpeechRecognizer` (`EXTRA_PREFER_OFFLINE`) |
-| Match | Trigger plus a ~0.45s pause before the command | Final transcript only; leading fillers such as "hey" / "嗯" are ignored |
-| Scripts | Spoken English word timing | Word boundaries for spaced scripts; CJK and similar scripts match without spaces |
-| Forwarding | `voice.transcript` to the main session | `voice.transcript` to the main session |
-| Capability | Advertised while the local toggle is on | Advertised while enabled, on-device recognition is available, microphone is granted, and Gateway words are ready |
+| Surface    | iOS                                              | Android                                                                                                          |
+| ---------- | ------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------- |
+| Recognizer | `SFSpeechRecognizer` plus an `AVAudioEngine` tap | On-device `SpeechRecognizer` (`EXTRA_PREFER_OFFLINE`)                                                            |
+| Match      | Trigger plus a ~0.45s pause before the command   | Final transcript only; leading fillers such as "hey" / "嗯" are ignored                                          |
+| Scripts    | Spoken English word timing                       | Word boundaries for spaced scripts; CJK and similar scripts match without spaces                                 |
+| Forwarding | `voice.transcript` to the main session           | `voice.transcript` to the main session                                                                           |
+| Capability | Advertised while the local toggle is on          | Advertised while enabled, on-device recognition is available, microphone is granted, and Gateway words are ready |
 
 Android ignores partial transcripts. The on-device recognizer often stops mid-phrase, so only a final result is safe to dispatch.
 

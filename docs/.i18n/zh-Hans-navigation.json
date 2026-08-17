@@ -305,10 +305,6 @@
           ]
         },
         {
-          "group": "移动配套应用",
-          "pages": ["zh-CN/app/mobile-voice-wake"]
-        },
-        {
           "group": "macOS 配套应用",
           "pages": [
             "zh-CN/platforms/mac/dev-setup",

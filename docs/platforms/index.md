@@ -18,9 +18,9 @@ Linux-compatible Gateway runtime.
 
 ## Choose your OS
 
-- Android: [Android](/platforms/android), [Voice wake (iOS and Android)](/app/mobile-voice-wake)
+- Android: [Android](/platforms/android)
 - ChromeOS: [ChromeOS (Crostini)](/platforms/chromeos)
-- iOS: [iOS](/platforms/ios), [Voice wake (iOS and Android)](/app/mobile-voice-wake)
+- iOS: [iOS](/platforms/ios)
 - Linux: [Linux](/platforms/linux)
 - macOS: [macOS](/platforms/macos)
 - Windows: [Windows](/platforms/windows)
